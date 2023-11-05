@@ -3,8 +3,6 @@ name: Go
   push:
     branches:
       - main
-    tags:
-      - v1.0.0
   pull_request:
     branches:
       - main
@@ -23,6 +21,7 @@ jobs:
         id: create_release
         uses: softprops/action-gh-release@v1
         with:
+          tag_name: test
           files: |
             TicketBookingApp
         env:
