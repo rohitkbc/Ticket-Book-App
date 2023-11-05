@@ -28,7 +28,7 @@ jobs:
         with:
           tag_name: v1.0.1
           files: |
-            Ticket_Booking_amd64.exe
+            Ticket_Booking_windows_amd64.exe
             Ticket_Booking_linux_amd64
             Ticket_Booking_mac_amd64
         env:
